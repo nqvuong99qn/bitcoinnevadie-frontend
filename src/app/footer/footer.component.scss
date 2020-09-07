@@ -1,0 +1,21 @@
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    width: 100%;
+    position: absolute;
+    top:77%;
+
+
+  
+    a {
+      color: rgb(51, 133, 255);
+  
+      &:hover {
+        color: rgb(235, 255, 51);
+      }
+      
+    
+  }
+}
+  
