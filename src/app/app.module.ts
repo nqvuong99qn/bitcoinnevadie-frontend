@@ -15,6 +15,9 @@ import { ExchangeComponent } from './exchange/exchange.component';
 import { ExchangeRateComponent } from './exchange-rate/exchange-rate.component';
 import { InstructionComponent } from './instruction/instruction.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 @NgModule({
   declarations: [
@@ -34,7 +37,9 @@ import { KnowledgeComponent } from './knowledge/knowledge.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MDBBootstrapModule
+    MDBBootstrapModule,
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
