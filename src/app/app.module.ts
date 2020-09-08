@@ -16,6 +16,7 @@ import { ExchangeRateComponent } from './exchange-rate/exchange-rate.component';
 import { InstructionComponent } from './instruction/instruction.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -39,7 +40,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     MDBBootstrapModule,
     MDBBootstrapModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
