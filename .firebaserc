@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "e-commerce-test-deploy"
+  },
+  "targets": {
+    "e-commerce-test-deploy": {
+      "hosting": {
+        "btc-frontend": [
+          "e-commerce-test-deploy"
+        ]
+      }
+    }
+  }
+}
